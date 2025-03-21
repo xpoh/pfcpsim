@@ -13,7 +13,7 @@ on:
 jobs:
   push-images:
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'omec-project'
+    if: github.repository_owner == 'xpoh'
     timeout-minutes: 20
     env:
       REGISTRY: registry.aetherproject.org
@@ -65,7 +65,7 @@ jobs:
   # CAUTION: Other actions depend on this name "tag-github"
   tag-github:
     runs-on: ubuntu-latest
-    if: github.repository_owner == 'omec-project'
+    if: github.repository_owner == 'xpoh'
     outputs:
       changed: ${{ steps.version-change.outputs.changed }}
       version: ${{ steps.version-change.outputs.version }}

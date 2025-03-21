@@ -4,9 +4,9 @@
 package commands
 
 import (
-	pb "github.com/omec-project/pfcpsim/api"
-	"github.com/omec-project/pfcpsim/internal/pfcpctl/config"
-	"github.com/omec-project/pfcpsim/logger"
+	pb "github.com/xpoh/pfcpsim/api"
+	"github.com/xpoh/pfcpsim/internal/pfcpctl/config"
+	"github.com/xpoh/pfcpsim/logger"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials/insecure"
 )

@@ -4,7 +4,7 @@
 package pfcpsim
 
 import (
-	"github.com/omec-project/pfcpsim/pkg/pfcpsim"
+	"github.com/xpoh/pfcpsim/pkg/pfcpsim"
 )
 
 var (

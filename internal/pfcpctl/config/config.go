@@ -7,7 +7,7 @@ import (
 	"net"
 	"os"
 
-	"github.com/omec-project/pfcpsim/logger"
+	"github.com/xpoh/pfcpsim/logger"
 )
 
 const (

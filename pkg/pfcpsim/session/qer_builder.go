@@ -4,8 +4,8 @@
 package session
 
 import (
-	"github.com/omec-project/pfcpsim/logger"
 	"github.com/wmnsk/go-pfcp/ie"
+	"github.com/xpoh/pfcpsim/logger"
 )
 
 type qerBuilder struct {

@@ -11,10 +11,10 @@ import (
 	"sync"
 	"syscall"
 
-	pb "github.com/omec-project/pfcpsim/api"
-	"github.com/omec-project/pfcpsim/internal/pfcpsim"
-	"github.com/omec-project/pfcpsim/logger"
 	"github.com/pborman/getopt/v2"
+	pb "github.com/xpoh/pfcpsim/api"
+	"github.com/xpoh/pfcpsim/internal/pfcpsim"
+	"github.com/xpoh/pfcpsim/logger"
 	"google.golang.org/grpc"
 )
 

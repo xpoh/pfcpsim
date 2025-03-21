@@ -11,9 +11,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/omec-project/pfcpsim/logger"
 	ieLib "github.com/wmnsk/go-pfcp/ie"
 	"github.com/wmnsk/go-pfcp/message"
+	"github.com/xpoh/pfcpsim/logger"
 )
 
 const (

@@ -5,7 +5,7 @@ SPDX-FileCopyrightText: 2024-present Intel Corporation
 SPDX-License-Identifier: Apache-2.0
 
 -->
-[![Go Report Card](https://goreportcard.com/badge/github.com/omec-project/pfcpsim)](https://goreportcard.com/report/github.com/omec-project/pfcpsim)
+[![Go Report Card](https://goreportcard.com/badge/github.com/xpoh/pfcpsim)](https://goreportcard.com/report/github.com/xpoh/pfcpsim)
 
 # pfcpsim
 pfcpsim is a PFCP simulator to interact with PFCP agents and can be used to
@@ -121,7 +121,7 @@ fuzz: elapsed: 13m24s, execs: 100 (0/sec), new interesting: 0 (total: 100)
 ...
 fuzz: elapsed: 15m1s, execs: 111 (0/sec), new interesting: 0 (total: 100)
 PASS
-ok  	github.com/omec-project/pfcpsim/fuzz	900.684s
+ok  	github.com/xpoh/pfcpsim/fuzz	900.684s
 ```
 - If the test result shows "PASS" and the UPF didn't crash, it means that the fuzzy test was successful!
 
@@ -144,7 +144,7 @@ fuzz: elapsed: 5s, gathering baseline coverage: 0/106 completed
 
 FAIL
 exit status 1
-FAIL    github.com/omec-project/pfcpsim/fuzz    5.023s
+FAIL    github.com/xpoh/pfcpsim/fuzz    5.023s
 ```
 
 ## Compile binaries
@@ -152,7 +152,7 @@ If you don't want to use docker you can just compile the binaries of `pfcpsim` a
 
 #### 1. Git clone this repository
 ```bash
-git clone https://github.com/omec-project/pfcpsim && cd pfcpsim/
+git clone https://github.com/xpoh/pfcpsim && cd pfcpsim/
 ```
 
 #### 2. Compile pfcpsim

@@ -7,8 +7,8 @@ import (
 	"context"
 
 	"github.com/jessevdk/go-flags"
-	pb "github.com/omec-project/pfcpsim/api"
-	"github.com/omec-project/pfcpsim/logger"
+	pb "github.com/xpoh/pfcpsim/api"
+	"github.com/xpoh/pfcpsim/logger"
 )
 
 type commonArgs struct {

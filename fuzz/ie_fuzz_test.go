@@ -10,9 +10,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/omec-project/pfcpsim/internal/pfcpsim/export"
-	"github.com/omec-project/pfcpsim/pkg/pfcpsim/session"
 	"github.com/stretchr/testify/require"
+	"github.com/xpoh/pfcpsim/internal/pfcpsim/export"
+	"github.com/xpoh/pfcpsim/pkg/pfcpsim/session"
 )
 
 const (

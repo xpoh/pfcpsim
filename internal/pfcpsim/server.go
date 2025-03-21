@@ -10,11 +10,11 @@ import (
 	"time"
 
 	"github.com/c-robinson/iplib"
-	pb "github.com/omec-project/pfcpsim/api"
-	"github.com/omec-project/pfcpsim/logger"
-	"github.com/omec-project/pfcpsim/pkg/pfcpsim"
-	"github.com/omec-project/pfcpsim/pkg/pfcpsim/session"
 	ieLib "github.com/wmnsk/go-pfcp/ie"
+	pb "github.com/xpoh/pfcpsim/api"
+	"github.com/xpoh/pfcpsim/logger"
+	"github.com/xpoh/pfcpsim/pkg/pfcpsim"
+	"github.com/xpoh/pfcpsim/pkg/pfcpsim/session"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

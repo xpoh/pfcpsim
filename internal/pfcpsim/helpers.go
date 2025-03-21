@@ -10,9 +10,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/omec-project/pfcpsim/logger"
-	"github.com/omec-project/pfcpsim/pkg/pfcpsim"
 	"github.com/wmnsk/go-pfcp/ie"
+	"github.com/xpoh/pfcpsim/logger"
+	"github.com/xpoh/pfcpsim/pkg/pfcpsim"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

@@ -6,8 +6,8 @@ package session
 import (
 	"net"
 
-	"github.com/omec-project/pfcpsim/logger"
 	"github.com/wmnsk/go-pfcp/ie"
+	"github.com/xpoh/pfcpsim/logger"
 )
 
 type pdrBuilder struct {
